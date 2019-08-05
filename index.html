@@ -107,18 +107,18 @@
 					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
 					(feature.properties.Orden_y_Limpieza.toFixed(0)) + 
 					'</td></tr>';
-			popupContent += '<tr><td style="border:1px solid #95A5A6; text-align: left    ;border-collapse:collapse;">Seguridad Industrial ' + 
-					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
-					si_old + 
-					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
-					(feature.properties.Seguridad_Industrial.toFixed(0)) + 
-					'</td></tr>';
-			popupContent += '<tr><td>' + '&nbsp' + '</td></tr>';
 			popupContent += '<tr><td style="border:1px solid #95A5A6; text-align: left    ;border-collapse:collapse;">Calificación Total ' + 
 					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
 					ct_old + 
 					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
 					(feature.properties.Calificación_Total.toFixed(0)) + 
+					'</td></tr>';
+			popupContent += '<tr><td>' + '&nbsp' + '</td></tr>';
+			popupContent += '<tr><td style="border:1px solid #95A5A6; text-align: left    ;border-collapse:collapse;">Seguridad Industrial ' + 
+					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
+					si_old + 
+					'</td><td style="border:1px solid #95A5A6; text-align:right    ">' + 
+					(feature.properties.Seguridad_Industrial.toFixed(0)) + 
 					'</td></tr>';
 			popupContent += '</table>'
 			popupContent += '</div>';
@@ -137,9 +137,9 @@
 			popupContent += '<tr><td>Ofertas y Precios: ' + (feature.properties.Ofertas_y_precios.toFixed(0)) + '</td></tr>';
 			popupContent += '<tr><td>Surtido y existencias: ' + (feature.properties.Surtido_y_existencias.toFixed(0)) + '</td></tr>';
 			popupContent += '<tr><td>Orden y Limpieza: ' + (feature.properties.Orden_y_Limpieza.toFixed(0)) + '</td></tr>';
-			popupContent += '<tr><td>Seguridad Industrial: ' + (feature.properties.Seguridad_Industrial.toFixed(0)) + '</td></tr>';
-			popupContent += '<tr><td>' + '&nbsp' + '</td></tr>';
 			popupContent += '<tr><th>Calificacion Total: ' + feature.properties.Calificación_Total + '</th></tr>';
+			popupContent += '<tr><td>' + '&nbsp' + '</td></tr>';
+			popupContent += '<tr><td>Seguridad Industrial: ' + (feature.properties.Seguridad_Industrial.toFixed(0)) + '</td></tr>';
 			popupContent += '</table>'
 			popupContent += '</div>';
 
